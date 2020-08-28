@@ -1,0 +1,56 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CloudmersiveImageRecognitionApiClient (1.1.5):
+    - AFNetworking (~> 3)
+    - ISO8601 (~> 0.6)
+    - JSONModel (~> 1.2)
+  - ISO8601 (0.6.0)
+  - JSONModel (1.8.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - CloudmersiveImageRecognitionApiClient
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CloudmersiveImageRecognitionApiClient
+    - ISO8601
+    - JSONModel
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CloudmersiveImageRecognitionApiClient: e47e50e9a456f22d66c3c5fa4d8f2ef1d1fb6beb
+  ISO8601: d3ea3ba9b752820cf92c6b47a9ee327e9f0e13fc
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: daef9ad504dcbb8b8d2c4ff771d0ab3e3969f421
+
+COCOAPODS: 1.9.3
